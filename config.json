@@ -19,7 +19,7 @@
         "web",
         "linux"
     ],
-    "version": "0.1.0",
+    "version": "0.1.1",
     "asset": {
         "arduinoC": {
             "dir": "arduinoC/",
@@ -31,6 +31,14 @@
                 "microbit",
                 "esp32s3bit"
             ]
+        },
+        "python": {
+        "dir": "python/",
+        "main": "main.ts",
+        "version": "0.1.1",
+        "dependencies": {
+                  "pinpong":""
         }
     }
+}
 }
